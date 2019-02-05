@@ -1,6 +1,6 @@
 # .PHONY: setup
 # setup:
-# 	if [goexec -e 0]; then 
+# 	if [goexec -ne 0]; then 
 # 		go get -u github.com/shurcooL/goexec
 # 		go install github.com/shurcooL/goexec
 # 	fi
